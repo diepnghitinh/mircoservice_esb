@@ -1,0 +1,9 @@
+version: "3.6"
+
+services:
+
+  esb-worker:
+    image: "registrycore.azurecr.io/esb-worker:${TAG:-latest}"
+    build:
+      context: ./src/esb-worker
+      dockerfile: Dockerfile

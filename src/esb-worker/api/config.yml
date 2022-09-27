@@ -1,0 +1,1 @@
+broker: 'amqp://avenger:123456@localhost:5672/avenger'
